@@ -101,10 +101,10 @@ local function map_item_field_name(field)
 end
 
 local type_map = {
-    string = "*string",
-    integer = "*int64",
-    boolean = "*bool",
-    double = "*float64",
+    string = "string",
+    integer = "int64",
+    boolean = "bool",
+    double = "float64",
     binary = "[]byte",
 }
 
